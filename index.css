@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 80vw;
+  background-color: #0b69ff;
+  color: white;
+  font-family: "Roboto";
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.image {
+  margin: 10px;
+  width: 20px;
+}
+
+.success {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 80vw;
+  background-color: #2dca73;
+  color: white;
+  font-family: "Roboto";
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.warning {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 80vw;
+  background-color: #ffb800;
+  color: white;
+  font-family: "Roboto";
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  width: 80vw;
+  background-color: #ff0b37;
+  color: white;
+  font-family: "Roboto";
+  margin: 10px;
+  border-radius: 5px;
+}
